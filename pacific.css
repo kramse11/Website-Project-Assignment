@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  color: #050316;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f2e6dc);
+}
+header {
+  background-color: #faf0ff;
+  color: #000000;
+  height: 120px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 3em;
+}
+header a:link {
+  color: #1f1f2e;
+  text-decoration: none;
+}
+header a:visited {
+  color: #1f1f2e;
+  text-decoration: none;
+}
+header a:hover {
+  color: #8b448d;
+}
+h1 {
+  padding: 1rem;
+  margin: 2rem 0;      
+  margin: 0;
+  border: none;
+  font-family: serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3em;
+  letter-spacing: 0.25em;
+}
+nav {
+  padding: 0.5em 0;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+}
+nav.sector{
+ background-color: #bbdefb;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.2em;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin: 0 1.5em;
+}
+nav a:link {
+  color: #5c7fa3;
+}
+nav a:visited {
+  color: #344873;
+}
+nav a:hover {
+  color: #8b448d;
+}
+h2.sector{
+  color: #1976d2;
+}
+h2 {
+  color: #1f1f2e; 
+  font-family: serif;
+  text-align: center;
+  font-size: 2
+}
+h3 {
+  font-family: serif;
+  color: #000033;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 2048px;
+  background-color: #f5f5f5;
+  box-shadow: 3px 3px 3px #333333;
+  border: 1px #000033 solid;
+}
+#homehero {
+  height: 300px;
+  background-image: url(bakingheroimage.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.featured {
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+  font-size: 1.1em;
+  background-color: #f5f5f5;
+}
+.featured h2 {
+  margin-bottom: 0.5em;
+}
+.featured {
+  display: flex;
+  gap: 1.5em;
+  padding: 2em;
+}
+.featured > div {
+  flex: 1;
+}
+.featured-img img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+footer {
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: serif;
+  padding: 2em;
+  background-color: #faf0ff;
+}
